@@ -1,0 +1,17 @@
+{
+  "enable": {
+    "type": "bool",
+    "description": "启用智能引用",
+    "default": true
+  },
+  "group_only": {
+    "type": "bool",
+    "description": "只在群聊中引用",
+    "default": true
+  },
+  "quote_after_seconds": {
+    "type": "int",
+    "description": "回复时的等待秒数超过该值时加引用",
+    "default": 6
+  }
+}
