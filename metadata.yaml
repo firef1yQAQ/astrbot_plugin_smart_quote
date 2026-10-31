@@ -1,0 +1,9 @@
+name: astrbot_plugin_smart_quote
+display_name: 智能引用
+desc: 只在被回复的消息已经不是最新一条时，才给回复补上引用；回最新一条不引用。
+short_desc: 只在被回复的消息已经不是最新一条时，才给回复补上引用；回最新
+help: 群聊里机器人回复滞后时自动补引用，避免满屏引用。
+version: 0.1.1
+author: dsh
+repo: ""
+astrbot_version: ">=4.0.0"
